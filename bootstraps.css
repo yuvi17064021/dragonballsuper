@@ -16,7 +16,7 @@
 }
 
 .background{
-  background: url(http://www.dragonballsuperofficial.com/wp-content/themes/DB_Super/img/homepage/bkgd.jpg) no-repeat center center;
+  background: url(./bkgd.jpg) no-repeat center center;
   background-size: cover;
   text-align: center;
   height: auto;
@@ -25,8 +25,9 @@
 .background img{
   position: center;
   height: auto;
-  width: 30%;
+  width: 284px;
 }
+
 
 .position img{
   position: center;
@@ -35,7 +36,7 @@
 }
 
 .bgd{
-  background: url(http://www.dragonballsuperofficial.com/wp-content/themes/DB_Super/img/about/bkgd.jpg) no-repeat center center;
+  background: url(./bkgd-2.jpg) no-repeat center center;
   background-size: cover;
   text-align: center;
   height: auto;
