@@ -2,7 +2,7 @@
 .header ul li{
   display: inline-block;
   line-height: 400%;
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight: 800;
   font-family: 'Lato', sans-serif;
   color: #00a4ec;
@@ -13,6 +13,22 @@
 
 .header ul li:hover{
   background-color: gold;
+  border-bottom: 3px solid;
+}
+
+.header ul li a:hover{
+  text-decoration: none;
+}
+
+.navbar-inverse{
+    color: #00a4ec;
+    background-color: white;
+    text-align: center;
+    display: none;
+    padding: 5px;
+    border: none;
+    width: 100%;
+    height: 35px;
 }
 
 .background{
@@ -71,4 +87,9 @@ p{
   font-size: 1.4em;
   font-weight: 500;
   font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 600px) {
+  .head{ display: none; }
+  .navbar-inverse { display: inline-block; }
 }
